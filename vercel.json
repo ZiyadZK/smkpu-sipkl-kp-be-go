@@ -1,11 +1,9 @@
 {
     "version": 2,
-    "builds": [],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/index.go"
+        }
     ]
-  }
-  
+}
